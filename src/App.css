@@ -21,7 +21,11 @@ body{
   color: white;
 }
 
-@media (max-width: 500px) {
+.small-sorting{
+  display: none;
+}
+
+@media (max-width: 600px) {
   .table thead{
     display: none;
   }
@@ -45,5 +49,11 @@ body{
     left: 0;
     text-align: left;
     padding-left: 10px;
+  }
+
+  .small-sorting {
+    display: block;
+    margin: 10px 0px;
+    text-align: center;
   }
 }
